@@ -7,7 +7,7 @@ $files = array();
 if ($handle = opendir("$path")) {
   while (false !== ($file = readdir($handle))) {
     if ($file != "." && $file != "..") {
-      if (substr($file, -3) == 'txt' {
+      if (substr($file, -3) == 'txt' ){
         $files[count($files)] = $file;
       }
     }
